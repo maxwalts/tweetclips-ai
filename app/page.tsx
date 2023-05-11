@@ -16,7 +16,7 @@ export default function IndexPage() {
   const [style, setStyle] = useState('')
   const [numSeconds, setNumSeconds] = useState(10)
   // Imagine();
-  Imagine("A nice robot");
+  // Imagine("A nice robot");
 
 
   return (
