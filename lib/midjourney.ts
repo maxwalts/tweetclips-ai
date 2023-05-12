@@ -1,4 +1,6 @@
 import { Midjourney } from "midjourney";
+import { NextApiRequest, NextApiResponse } from 'next'
+import { cachePromptURI } from '../middleware/database'
 
 const channelID = process.env.CHANNEL_ID;
 const serverID = process.env.SERVER_ID;
@@ -16,7 +18,7 @@ const cache: { [prompt: string]: string | undefined } = {};
 // Create a set to track the prompts being processed
 const processingSet: Set<string> = new Set();
 
-export async function Imagine(prompt: string = "") {
+export async function imagine(prompt: string = "") {
   if (prompt === "") {
     console.log("No prompt provided.");
     return;
