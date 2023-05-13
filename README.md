@@ -1,23 +1,26 @@
-# next-template
+# shortgen.ai
+Generate viral short-form content with AI!
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+## Demo
+### 📝 Script generation
 
-## Usage
+![ss-1](./docs/scriptgen-1.png)
+*Define your tweet, style, and length*
+
+![ss-2](./docs/scriptgen-2.png)
+*Generate your script!*
+
+### 🖼️ Visual generation
+_Coming soon 🔥_
+
+## Configuration
+### Environment variables
+Your `.env.local` file should look like this:
 
 ```bash
-npx create-next-app -e https://github.com/shadcn/next-template
+channelID=...
+serverID=...
+SALAI_TOKEN=...
+OPENAI_API_KEY=...
+SYSTEM_PROMPT=...
 ```
-
-## Features
-
-- Radix UI Primitives
-- Tailwind CSS
-- Fonts with `next/font`
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-- Automatic import sorting with `@ianvs/prettier-plugin-sort-imports`
-- Tailwind CSS class sorting, merging and linting.
-
-## License
-
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).

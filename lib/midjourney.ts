@@ -2,6 +2,9 @@ import { Midjourney } from "midjourney";
 import { NextApiRequest, NextApiResponse } from 'next'
 import { cachePromptURI } from '../middleware/database'
 
+
+// TODO: move the request to the /api/generateVisual (env is not accessible to the browser)
+
 const channelID = process.env.CHANNEL_ID;
 const serverID = process.env.SERVER_ID;
 const SALAI_TOKEN = process.env.SALAI_TOKEN;
