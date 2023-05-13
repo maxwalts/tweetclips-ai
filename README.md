@@ -3,12 +3,9 @@ Generate viral short-form content with AI!
 
 ## Demo
 ### 📝 Script generation
-
-![ss-1](./docs/scriptgen-1.png)
-*Define your tweet, style, and length*
-
-![ss-2](./docs/scriptgen-2.png)
-*Generate your script!*
+- Define your tweet, style, and length
+- Generate your script!
+![demo](./docs/output-sm-2x.gif)
 
 ### 🖼️ Visual generation
 _Coming soon 🔥_
