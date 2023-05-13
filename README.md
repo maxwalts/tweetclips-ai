@@ -1,4 +1,4 @@
-# shortgen.ai
+# tweetclips-ai
 Generate viral short-form content with AI!
 
 ## Demo
